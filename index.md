@@ -1,4 +1,6 @@
-![name](/assets/images/nametag.png)
+<div style="width:30%; margin: auto;">
+  ![name](/assets/images/nametag.png)
+</div>
 
 # About Me
 
