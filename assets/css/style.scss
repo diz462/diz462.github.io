@@ -16,7 +16,6 @@
           }
 
 .main-nav li.fork {
-          float: none;
           background-color: transparent;
           }
 
@@ -31,8 +30,9 @@
 
 #footer .credits {
                  display: flex;
-                 justify-content: space-evenly;
+                 justify-content: center;
                  flex-wrap: wrap;
+                 gap: 1rem;
                  }
 
 #footer .credits.left,
