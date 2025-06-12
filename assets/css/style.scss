@@ -21,28 +21,30 @@
           }
 
 #footer {
-  margin-top: 2rem;
-  padding: 1rem;
-  font-size: 0.9rem;
-  text-align: center;
-  border-top: 1px solid #ddd;
-  color: #666;
-}
+        margin-top: 2rem;
+        padding: 1rem;
+        font-size: 0.9rem;
+        text-align: center;
+        border-top: 1px solid #ddd;
+        color: #666;
+        }
 
 #footer .credits {
-  display: flex;
-  /*justify-content: space-between;*/
-  flex-wrap: wrap;
-}
+                 display: flex;
+                 /*justify-content: space-between;*/
+                 flex-wrap: wrap;
+                 }
 
 #footer .credits.left,
 #footer .credits.right {
-  flex: 1 1 auto;
-  padding: 0.5rem;
-}
+                        flex: 1 1 auto;
+                        padding: 0.5rem;
+                       }
 
-        /*background-color: transparent;
-        margin: 0;
+*header nav {
+            background-color: transparent;
+            }
+       /* margin: 0;
         padding: 0;
         
        }
