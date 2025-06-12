@@ -1,12 +1,14 @@
-/*---
+---
 ---
 
 @import "{{ site.theme }}";
 nav ul {
-        background-color: transparent;
+        gap: 1rem;
+       }
+        /*background-color: transparent;
         margin: 0;
         padding: 0;
-        gap: 1rem;
+        
        }
 .main-nav ul {
               background-color: transparent; 
