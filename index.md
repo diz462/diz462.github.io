@@ -1,6 +1,4 @@
-<p>
-  <img src=/assets/images/nametag.png alt="Name Tag" class=image-small)  
-</p>
+![Name Tag](/assets/images/nametag.png){: .image-small }
 
 # About Me
 
