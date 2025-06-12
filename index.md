@@ -1,3 +1,5 @@
+![name](/assets/images/nametag.png)
+
 # About Me
 
 ---
