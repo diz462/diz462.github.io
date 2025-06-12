@@ -38,7 +38,7 @@
         <div id="title">
           {% if page.url == "/" %}
           <h1>
-            <img src="{{ '/assets/images/nametag.png' | relative_url }}" alt="Name Tag">
+            <img src="{{ '/assets/images/nametag.png' | relative_url }}" alt="Name Tag" style="width: 40%; display: block; margin: 0 auto;>
           </h1>
           {% else %}
             <h1>{{ site.title | default: site.github.repository_name }}</h1>
