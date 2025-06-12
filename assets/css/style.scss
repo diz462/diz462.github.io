@@ -2,11 +2,19 @@
 ---
 
 @import "{{ site.theme }}";
+nav ul {
+        background-color: transparent;
+        margin: 0;
+        padding: 0;
+        gap: 1rem;
+       }
+
+/*
 .main-nav ul {
-              background-color: transparent; /* fix the blue */
+              background-color: transparent; 
               list-style: none;
               display: flex;
-              gap: 1rem; /* adds space between buttons */
+              gap: 1rem; 
               margin: 0;
               padding: 0;
              }
@@ -22,3 +30,4 @@
 .main-nav a:hover {
                    background-color: #ddd;
                   }
+*/
