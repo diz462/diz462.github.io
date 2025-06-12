@@ -36,9 +36,16 @@
 
       <section>
         <div id="title">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          {% if page.url == https://diz462.github.io/ %}
+          <h1>
+            <img src="{{ '/assets/images/nametag.png' | relative_url }}" alt="Name Tag">
+          </h1>
+          {% else}
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          {% endif}
           <p>{{ site.tagline | default: site.description | default: site.github.project_tagline }}</p>
-          <hr>        
+          <hr>
+          
         </div>
 
         {{ content }}
