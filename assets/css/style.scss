@@ -2,9 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
+.buttons li { 
+            float: none; 
+            } 
 nav ul {
         gap: 1rem;
-        float: none;
        }
         /*background-color: transparent;
         margin: 0;
