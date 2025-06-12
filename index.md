@@ -1,5 +1,3 @@
-<!--![Name Tag](/assets/images/nametag.png){: .image-small }-->
-
 # About Me
 
 ---
